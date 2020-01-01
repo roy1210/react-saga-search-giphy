@@ -1,68 +1,57 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Search GIF with redux-saga App
 
-## Available Scripts
+Search GIF:
 
-In the project directory, you can run:
+This is a very simple app which look a GIF with Giphy search engine.
 
-### `yarn start`
+**_DEMO:_**
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img src="./src/resource/200101searchGifSaga.gif" width="60%">
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Environment
 
-### `yarn test`
+```bash
+$ node -v
+v13.1.0
+$ yarn -v
+v1.19.2
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React: `16.12.0`
 
-### `yarn build`
+## Dependencies
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### For Application
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [redux](https://github.com/reduxjs/redux), [react-redux](https://github.com/reduxjs/react-redux)
+  - Redux.
+- [redux-saga](https://github.com/redux-saga/redux-saga)
+  - An alternative side effect model for Redux app. This hooks Redux action in the middleware, which allows asynchronous operations.
+- [axios](https://github.com/axios/axios)
+  - Promise based HTTP client for the browser and node.js
+- [immutable](https://github.com/immutable-js/immutable-js)
+  - Immutable persistent data collections for Javascript which increase efficiency and simplicity. .
+- [styled-components](https://www.styled-components.com/)
+  - Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress.
+- [react-spring](https://github.com/react-spring/react-spring)
+  - A spring physics based React animation library.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### For Development
 
-### `yarn eject`
+- [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
+  - Redux DevTools extension.
+- [enzyme, enzyme-adapter-react-16](https://github.com/airbnb/enzyme)
+  - JavaScript testing utilities for React Components' output.
+- [redux-mock-store](https://github.com/dmitry-zaets/redux-mock-store)
+  - A mock store for testing Redux async action creators and middleware.
+- [redux-saga-test-plan](https://github.com/jfairbank/redux-saga-test-plan)
+  - Redux Saga testing utilities.
+- [redux-logger](https://github.com/LogRocket/redux-logger)
+  - Logger for Redux.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## How To Use
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```bash
+$ yarn
+$ yarn start
+```
