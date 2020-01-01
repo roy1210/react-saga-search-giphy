@@ -40,12 +40,6 @@ v1.19.2
 
 - [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
   - Redux DevTools extension.
-- [enzyme, enzyme-adapter-react-16](https://github.com/airbnb/enzyme)
-  - JavaScript testing utilities for React Components' output.
-- [redux-mock-store](https://github.com/dmitry-zaets/redux-mock-store)
-  - A mock store for testing Redux async action creators and middleware.
-- [redux-saga-test-plan](https://github.com/jfairbank/redux-saga-test-plan)
-  - Redux Saga testing utilities.
 - [redux-logger](https://github.com/LogRocket/redux-logger)
   - Logger for Redux.
 
