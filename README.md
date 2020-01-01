@@ -1,7 +1,5 @@
 # Search GIF with redux-saga App
 
-Search GIF:
-
 This is a very simple app which look a GIF with Giphy search engine.
 
 **_DEMO:_**
